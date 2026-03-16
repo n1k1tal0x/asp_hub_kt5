@@ -1,0 +1,1 @@
+1. Запустить докер postgres в docker-compose
