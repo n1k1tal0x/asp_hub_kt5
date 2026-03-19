@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace asp_hub_kt6.Models
+namespace asp_hub_kt5.Models
 {
     public class Product
     {
@@ -10,9 +10,9 @@ namespace asp_hub_kt6.Models
         public int Id { get; set; }
 
         [StringLength(100)]
-        public string Name { get; set; }
+        public required string Name { get; set; }
 
         [StringLength(100)]
-        public string Description { get; set; }
+        public required string Description { get; set; }
     }
 }

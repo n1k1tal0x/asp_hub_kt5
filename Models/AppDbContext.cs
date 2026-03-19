@@ -1,10 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace asp_hub_kt6.Models
+namespace asp_hub_kt5.Models
 {
     public class AppDbContext : DbContext
     {
-        public DbSet<Product> Products { get; set; }
+        public DbSet<Product> Products => Set<Product>();
 
         public AppDbContext(DbContextOptions<AppDbContext> options)
             : base(options) { }
