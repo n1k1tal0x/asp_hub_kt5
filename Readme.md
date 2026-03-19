@@ -8,10 +8,12 @@ dotnet ef migrations add InitialCreate
 dotnet ef database update
 ```
 
-3. Если ef не найден
+Если ef не найден
 ```
 dotnet tool install --global dotnet-ef
 ```
+
+3. Запустить прогу
 
 # Ручки
 
